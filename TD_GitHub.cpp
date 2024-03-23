@@ -41,6 +41,26 @@ float TVA(int prix){
 	return res;
 }
 
+int plusGrand(int a, int b, int c){
+	int res;
+	if(a>b){
+		if(a>c){
+			res=a;
+		}
+		else{
+			res=c;
+		}
+	}
+	else if (a<b){
+		if(b>c){
+			res=b;
+		}
+		else{
+			res=c;
+		}
+	}
+}
+
 
 
 //Fonctions réalisées par l'étudiant 2 :
