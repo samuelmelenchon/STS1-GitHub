@@ -12,6 +12,7 @@ bool estMajeur(int age){
 	else {
 		result=true;
 	}
+	return result;
 }
 
 int exposant(int nbre, int exp){
