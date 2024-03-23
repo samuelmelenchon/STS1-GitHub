@@ -17,7 +17,8 @@ bool estMajeur(int age){
 
 int exposant(int nbre, int exp){
 	
-	int res,i;
+	int res=0;
+	int i;
 	if(exp==0){
 		res=1;
 	}
@@ -32,7 +33,7 @@ int exposant(int nbre, int exp){
 
 
 float TVA(int prix){
-	float res;
+	float res=0;
 	if(prix>=1000){
 		res=prix*1,196;
 	}
@@ -43,7 +44,7 @@ float TVA(int prix){
 }
 
 int plusGrand(int a, int b, int c){
-	int res;
+	int res=0;
 	if(a>b){
 		if(a>c){
 			res=a;
@@ -60,6 +61,7 @@ int plusGrand(int a, int b, int c){
 			res=c;
 		}
 	}
+	return res;
 }
 
 
