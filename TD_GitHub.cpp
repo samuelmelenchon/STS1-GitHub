@@ -14,7 +14,20 @@ bool estMajeur(int age){
 	}
 }
 
+int exposant(int nbre, int exp){
+	
+	int res,i;
+	if(exp==0){
+		res=1;
+	}
+	else{
+		for(i=0;i<exp-1;i++){
+			res=res*nbre;
 
+			}
+		}
+	return res;
+}
 
 
 
