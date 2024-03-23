@@ -30,7 +30,16 @@ int exposant(int nbre, int exp){
 }
 
 
-
+float TVA(int prix){
+	float res;
+	if(prix>=1000){
+		res=prix*1,196;
+	}
+	else{
+		res=prix*1,055;
+	}
+	return res;
+}
 
 
 
